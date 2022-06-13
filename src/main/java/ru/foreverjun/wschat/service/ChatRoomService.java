@@ -1,13 +1,11 @@
 package ru.foreverjun.wschat.service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 import ru.foreverjun.wschat.db.entity.ChatRoom;
 import ru.foreverjun.wschat.db.repository.ChatRoomDao;
 import ru.foreverjun.wschat.exception.ResourceNotFoundException;
 
-import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

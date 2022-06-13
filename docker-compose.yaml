@@ -1,0 +1,8 @@
+version: "2.2"
+services:
+  postgres:
+    image: "postgres:12.7-alpine3.14"
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "7432:5432"

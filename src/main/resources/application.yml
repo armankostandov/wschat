@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: "WebSocket Chat"
+  datasource:
+    url: jdbc:postgresql://localhost:7432/postgres
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
